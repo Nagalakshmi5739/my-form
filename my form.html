@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>MY FORM</title>
+<style>
+       img{ 
+           margin-left:45%;
+           background-color:pink;
+          padding:10px;
+}
+      #chinni{
+           margin-left:20%;
+           margin-right:20%;
+           background-color:pink;
+}  
+    .deep{
+           margin-left:20%;
+           margin-right:20%;
+           padding:15px;
+           background-color:skyblue;
+}   
+     .deep:hover{
+              background-color:red;
+}
+   body{
+         background-color:green;
+}
+</style>
+</head>
+<body>
+       <img src="naga.jpeg" alt="userlogo" width="200px" height="200px"/>
+       <fieldset id="chinni">
+                 <legend>Registration form</legend>
+                 <form action=""method="post" class="deep">
+                 <table>
+                         <tr>
+                              <td>username:</td>
+                              <td><input type="text" name="username" placeholder="Enter the username"required></td>
+                              </tr>
+
+                 
+                 <tr>
+                              <td>password:</td>
+                              <td><input type="password" name="userpassword" placeholder="Enter your password"required></td>
+                              </tr>
+                  <tr>
+                              <td>Mobile number:</td>
+                              <td><input type="number" name="usernumber" placeholder="Enter your mobilenumber"required></td>
+                              </tr> 
+                  <tr>
+                              <td>Email:</td>
+                              <td><input type="email" name="email id" placeholder="Enter your email id"required></td>
+                              </tr>
+                  <tr>
+                              <td>Date of Birth:</td>
+                              <td><input type="date" name="dob" required></td>
+                              </tr>
+                   <tr>
+                              <td>Gender:</td>
+                              <td><input type="radio" name="gen" value="male" required>male
+                                  <input type="radio" name="gen" value="female"required>female
+                                  <input type="radio" name="gen" value=other"required>other</td>
+                              </tr>
+                   <tr>
+                            <td>type of user:</td>
+                            <td>
+                                <select name="utype">
+                                        <option value="1">1st year</option>
+                                        <option value="2">2nd year</option>
+                                        <option value="3">3rd year</option>
+                                        <option value="4">4th year</option>
+                                </select>
+                            </td>
+                   </tr>
+                  <tr> 
+                         <td>profile pic</td>
+                         <td><input type="file" name="userfile"></td>
+                  </tr>
+                  <tr>
+                         <td><input type="checkbox" value="i">i accept all the terms and conditions.</td>
+                  </tr>
+                  <tr>
+                       <td><input type="submit" value="register"></td>
+                       <td><input type="reset" value="clear"></td>
+                  </tr>
+ </table>
+                 </form>
+       </fieldset>
+</body>
+</html>
